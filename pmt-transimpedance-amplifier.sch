@@ -31,7 +31,9 @@ LIBS:valves
 LIBS:wheelerlab
 LIBS:dstat
 LIBS:pmt-transimpedance-amplifier-cache
+
 EELAYER 25 0
+
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -263,6 +265,7 @@ F 3 "" H 7275 1575 60  0001 C CNN
 	1    7475 1375
 	1    0    0    -1  
 $EndComp
+
 Text GLabel 8025 1675 2    60   Input ~ 0
 CS_ADC
 Text GLabel 8025 1475 2    60   Input ~ 0
@@ -274,6 +277,7 @@ SCK
 Text GLabel 5925 1675 0    60   Input ~ 0
 GND
 Text GLabel 5225 1375 0    60   Input ~ 0
+
 VREF
 NoConn ~ 6925 1175
 NoConn ~ 6925 1275
@@ -323,6 +327,7 @@ F 3 "" H 8200 1975 50  0001 C CNN
 $EndComp
 Text GLabel 8200 2125 2    60   Input ~ 0
 GND
+Connection ~ 8200 1825
 $Comp
 L C C8
 U 1 1 594BC5D9
@@ -469,6 +474,8 @@ F 3 "" H 6375 1825 50  0001 C CNN
 	1    6375 1825
 	-1   0    0    1   
 $EndComp
+Text GLabel 6125 6850 2    60   Input ~ 0
+GND
 Wire Wire Line
 	6400 3700 6400 4550
 Wire Wire Line
